@@ -91,29 +91,42 @@ var dt3 = true
 /*
 qna
 
-difference with null and undefined 
+1 Difference with null and undefined 
 
 *bug null is an object with null
 undefined a variable with not assigned
 
 
-what is NaN
+2. what is NaN
 Not a number
 string-sting get NaN
 global object property
 a variable in global scope
 initial value of NaN
 
+3. NaN === NaN
+(NaN=NaN)       // NaN
+(NaN==NaN)      // false
+(NaN===NaN)     // false
+
 
 */ 
 var qn1 = null
 var qn2
+// console.log(qn1)
 // console.log(typeof(qn1))
 // console.log((qn2))
 // console.log(typeof(qn2))
 
-var num = 'Sam'
-
-if(isNaN(num)){
-    console.log('Enter a valid number')
+var qn3 = 'Sam'
+if(isNaN(qn3)){
+    // console.log('Oo! Enter number not ' + typeof(qn3))
 }
+
+console.log(NaN=NaN)       // NaN
+console.log(NaN==NaN)      // false
+console.log(NaN===NaN)     // false
+console.log(Number.NaN === NaN) //false     
+console.log(Number(NaN)) //NaN   
+console.log(isNaN(NaN)) //true  
+console.log(Number.isNaN(NaN)) //true     

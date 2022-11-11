@@ -1,0 +1,19 @@
+
+
+Operator
+if an expression 
+var a = 5+20
+5,20 = operand
++    = operator
+
+Different expressions and operator
+Assignment operator
+Arithmetic operator
+Comparison operator
+Logical operator
+String operator
+Conditional (ternary) operator
+
+Assignment operator
+it takes numerical value as operands (literal or variable) and reruns signal value
+ 
