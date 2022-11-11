@@ -1,0 +1,20 @@
+javascript improves the user experience of the web page by converting it form a static page into an interactive one.
+
+javascript adds behavior to web pages
+
+works of front end website or client side
+
+html -> css3 -> javascript
+
+html: hypertext markup language 
+describe web page structure of web page
+std markup language for creating web pages
+
+cascading style sheet
+describe how html elements are to be displayed on screen, paper, or in other media.
+it can control the color, font, the size of text etc.
+
+javascript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.
+javascript improves the user experience of the web page by converting it from a static page into an interactive one.
+
+
