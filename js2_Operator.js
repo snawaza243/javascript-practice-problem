@@ -7,12 +7,13 @@
  *
  *
  * Different expressions and operator
- * Assignment operator :
- * Arithmetic operator
- * Comparison operator
- * Logical operator: &&(AND), || (OR), ! (NOR), ^ (XOR)
- * String operator
- * Conditional (ternary) operator
+ * Assignment operator  : =, !=, ==
+ * Arithmetic operator  :  +, -, *, /, %
+ * Comparison operator  : <, >, <=, >=
+ * Logical operator     : &&(AND), || (OR), ! (NOR), ^ (XOR)
+ * String operator      : " ", ' ', ` `
+ * Conditional 
+ * or Ternary operator  : ?--:--
  *
  */
 
@@ -50,6 +51,7 @@
 // var b = 10;
 // console.log(a==b)
 
+
 // Logical operator: use with boolean true or false ( a)
 
 // var a = 10;
@@ -73,7 +75,7 @@
 
 /**
  * QnQ 2
- * output of 3***5 (3pow(5))
+ * output of 3**5 (3pow(5))
  * output of adding number and string
  * number swap program
  * number swap without third
@@ -84,11 +86,6 @@
 // console.log(3**-1) //0.5
 // console.log(3**-1) //0.333
 
-// number swap with third variable
-// var a = 10
-// var b = 20
-// console.log('a = '+ a)
-// console.log('b = '+ b)
 
 // var c = a
 // a = b
@@ -96,9 +93,22 @@
 // console.log('\na = '+ a)
 // console.log('b = '+ b)
 
+// string and number
+// var nu1 = 10
+// var nu2 = '10'
+// console.log(typeof(nu1))
+// console.log(typeof(nu2))
+// console.log(nu1==nu2) // *as bug but check only value 
+
+
+// number swap with third variable
+// var a = 10
+// var b = 20
+// console.log('a = '+ a)
+// console.log('b = '+ b)
+
 
 // number swap without third variable
-
 // var a = 10
 // var b = 20
 // console.log('a = ' + a)
@@ -108,12 +118,3 @@
 // a = a - b
 // console.log('\na = ' + a)
 // console.log('b = ' + b)
-
-// string and number
-// var nu1 = 10
-// var nu2 = '10'
-
-// console.log(typeof(nu1))
-// console.log(typeof(nu2))
-// console.log(nu1==nu2) // *as bug but check only value 
-
