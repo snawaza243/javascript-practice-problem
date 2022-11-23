@@ -11,8 +11,12 @@
  * ternary operator :
  */
 
-var a
 
+/**
+ *       3.0 if... else
+ */
+
+// var a
 // if (a == 20) {
 //   console.log('Barabar hai bhai')
 // } else {
@@ -73,24 +77,3 @@ if (y % 4 === 0) {
 // }
 
 // Hurrah, we won the match at 10
-
-/**
- * 2. ConditionalTernary operator
- *
- * The only operands that takes three operands.
- * combination and operands and operator called expression
- * syntax: of ternary operator that is short form of if... else..
- * variableName = (condition) ? trueValue:falseValue
- */
-
-var age = 10
-
-// with if.. else..
-// if (age >= 18) {
-//   console.log(`you can vote`)
-// } else {
-//   console.log(`you can't vote`)
-// }
-
-// with ternary operator
-// console.log(age>=8?`Your can vote`:`You can't vote`)

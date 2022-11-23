@@ -34,22 +34,3 @@ do{
     n2++
 }while(n2<=10)
 
-
-/**
- * for loop
- * shorter of while and do while loop
- * syntax
- * for (initializer; condition; iterator){....}
- * 
- * little falster 
- * 
- */
-
-
-
-for(var i = 1; i<=10; i++)
-{
-    console.log(i)
-}
-
-// 3:7:30
